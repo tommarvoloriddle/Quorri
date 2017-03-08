@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="#ad36fb05"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:textSize="15.0sp" android:id="@id/app_name" android:paddingLeft="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/AppTheme" />
+    <TableLayout android:layout_gravity="bottom|center" android:id="@id/tableLayout1" android:layout_width="345.0dip" android:layout_height="345.0dip"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow android:id="@id/tablePawnRow1" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn11" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path11v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn21" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path21v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn31" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path31v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn41" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path41v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn51" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path51v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn61" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path61v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn71" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path71v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn81" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path81v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn91" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableWallRow1" android:padding="0.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip">
+            <ImageView android:id="@id/path11h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall11" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path21h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall21" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path31h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall31" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path41h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall41" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path51h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall51" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path61h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall61" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path71h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall71" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path81h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall81" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path91h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tablePawnRow2" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn12" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path12v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn22" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path22v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn32" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path32v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn42" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path42v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn52" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path52v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn62" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path62v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn72" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path72v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn82" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path82v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn92" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableWallRow2" android:padding="0.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip">
+            <ImageView android:id="@id/path12h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall12" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center" />
+            <ImageView android:id="@id/path22h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall22" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path32h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall32" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center" />
+            <ImageView android:id="@id/path42h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall42" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path52h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall52" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path62h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall62" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path72h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall72" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path82h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall82" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path92h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tablePawnRow3" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn13" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path13v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn23" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path23v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn33" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path33v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn43" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path43v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn53" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path53v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn63" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path63v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn73" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path73v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn83" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path83v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn93" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableWallRow3" android:padding="0.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip">
+            <ImageView android:id="@id/path13h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall13" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path23h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall23" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path33h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall33" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path43h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall43" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path53h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall53" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path63h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall63" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path73h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall73" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path83h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall83" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path93h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tablePawnRow4" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn14" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path14v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn24" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path24v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn34" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path34v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn44" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path44v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn54" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path54v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn64" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path64v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn74" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path74v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn84" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path84v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn94" android:background="#ff606060" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableWallRow4" android:padding="0.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip">
+            <ImageView android:id="@id/path14h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall14" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path24h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall24" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path34h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall34" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path44h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall44" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path54h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall54" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path64h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall64" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path74h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall74" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path84h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall84" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path94h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tablePawnRow5" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn15" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path15v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn25" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path25v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn35" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path35v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn45" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path45v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn55" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path55v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn65" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path65v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn75" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path75v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn85" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path85v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn95" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableWallRow5" android:padding="0.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip">
+            <ImageView android:id="@id/path15h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall15" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path25h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall25" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path35h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall35" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path45h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall45" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path55h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall55" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path65h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall65" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path75h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall75" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path85h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall85" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path95h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tablePawnRow6" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn16" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path16v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn26" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path26v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn36" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path36v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn46" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path46v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn56" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path56v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn66" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path66v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn76" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path76v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn86" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path86v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn96" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableWallRow6" android:padding="0.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip">
+            <ImageView android:id="@id/path16h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall16" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path26h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall26" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path36h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall36" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path46h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall46" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center" />
+            <ImageView android:id="@id/path56h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall56" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path66h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall66" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center" />
+            <ImageView android:id="@id/path76h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall76" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path86h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall86" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path96h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tablePawnRow7" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn17" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path17v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn27" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path27v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn37" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path37v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn47" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path47v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn57" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path57v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn67" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path67v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn77" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path77v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn87" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path87v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn97" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableWallRow7" android:padding="0.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip">
+            <ImageView android:id="@id/path17h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall17" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path27h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall27" android:layout_width="15.0dip" android:layout_height="15.0dip"  android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path37h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall37" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path47h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall47" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path57h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall57" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path67h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall67" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path77h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall77" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path87h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall87" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path97h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tablePawnRow8" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn18" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path18v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn28" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path28v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn38" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path38v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn48" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path48v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn58" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path58v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn68" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path68v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn78" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path78v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn88" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path88v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn98" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableWallRow8" android:padding="0.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip">
+            <ImageView android:id="@id/path18h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall18" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path28h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall28" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path38h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall38" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path48h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall48" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path58h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall58" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path68h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall68" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path78h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall78" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path88h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@id/wall88" android:layout_width="15.0dip" android:layout_height="15.0dip" android:background="@drawable/wall_center"/>
+            <ImageView android:id="@id/path98h" android:layout_width="25.0dip" android:layout_height="15.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tablePawnRow9" android:padding="0.0dip" android:layout_width="175.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/pawn19" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path19v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn29" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path29v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn39" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path39v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn49" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path49v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn59" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path59v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn69" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path69v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn79" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path79v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn89" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/path89v" android:layout_width="15.0dip" android:layout_height="25.0dip" />
+            <ImageView android:id="@id/pawn99" android:background="#ff606060" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/textView4" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/walls_remaining" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/textView6" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_walls" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold|italic" android:textColor="#ff000000" android:id="@id/userWalls" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/textView7" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ai_walls" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold|italic" android:textColor="#ff000000" android:id="@id/aiWalls" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" />
+        </TableRow>
+    </TableLayout>
+    <TextView android:textSize="15.0sp" android:textStyle="bold|italic" android:textColor="#ff000000" android:id="@id/textView8" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/radioGroup" android:layout_width="wrap_content" android:layout_height="25.0dip">
+        <RadioButton android:id="@id/radioPawn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/pawn" android:onClick="radioButtonClick" />
+        <RadioButton android:id="@id/radioVwall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v_wall" android:onClick="radioButtonClick" />
+        <RadioButton android:id="@id/radioHwall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h_wall" android:onClick="radioButtonClick" />
+    </RadioGroup>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableRow>
+            <ImageView android:id="@id/imageView3" android:paddingLeft="40.0dip" android:paddingTop="15.0dip" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/user_pawn" />
+            <ImageView android:id="@id/imageView4" android:paddingLeft="40.0dip" android:paddingRight="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v_wall" />
+            <ImageView android:id="@id/imageView" android:paddingLeft="50.0dip" android:paddingTop="20.0dip" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h_wall" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
